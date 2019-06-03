@@ -9,9 +9,17 @@ class HomePage extends StatelessWidget {
           child: Column(
             children: <Widget>[
               CircleAvatar(
-                radius: MediaQuery.of(context).size.width/4.5,
+                radius: MediaQuery.of(context).size.width/5,
                 backgroundImage: AssetImage("assets/mypic.jpg"),
-              )
+              ),
+              Text(
+                "Soumyadeep Sinha",
+                style: TextStyle(
+                  fontFamily: "Pacifico",
+                  color: Colors.white,
+                  fontSize: 40
+                  ),
+                )
             ],
           ),
         ),
