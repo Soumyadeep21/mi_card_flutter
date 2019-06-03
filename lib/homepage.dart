@@ -19,7 +19,14 @@ class HomePage extends StatelessWidget {
                   color: Colors.white,
                   fontSize: 40
                   ),
-                )
+                ),
+              Text(
+                "FLUTTER DEVELOPER",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontFamily: 'ZCOOLKuaiLe',
+                  fontSize: 30
+                ),)
             ],
           ),
         ),
